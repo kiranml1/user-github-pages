@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html ng-app="ngBoilerplate" ng-controller="AppCtrl">
+  <head>
+    <title ng-bind="pageTitle"></title>
+
+    <!-- social media tags -->
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@kiranml1">
+    <meta name="twitter:title" content="Kiran Kumar">
+    <meta name="twitter:description" content="Kiran Kumar - Blogging &amp; Research Site">
+    <meta name="twitter:creator" content="@kiranml1">
+    <meta name="twitter:image:src" content="https://a248.e.akamai.net/assets.github.com/images/modules/logos_page/Octocat.png?1366128846">
+    <meta property="og:title" content="Kiran Kumar" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://kiranml1.github.io/" />
+    <meta property="og:image" content="https://a248.e.akamai.net/assets.github.com/images/modules/logos_page/Octocat.png?1366128846" />
+    <meta property="og:description" content="Kiran Kumar - Blogging &amp; Research Site">
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="application-name" content="Kiran Kumar | Blogging &amp; Research"/>
+    <meta name="description" content="Kiran Kumar | Blogging &amp; Research" />
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript,js,kiranm11,kiran,kiran kumar,d3,d3js,angular,angularjs,sproutcore"/>
+    <meta name="author" content="Kiran Kumar">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font awesome from BootstrapCDN -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- compiled CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/ngbp-0.3.2.css" />
+
+    <!-- compiled JavaScript -->
+    <script type="text/javascript" src="vendor/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="vendor/fitvids/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="vendor/angular/angular.js"></script>
+    <script type="text/javascript" src="vendor/angular-bootstrap/ui-bootstrap.js"></script>
+    <script type="text/javascript" src="vendor/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="vendor/placeholders/angular-placeholders-0.0.1-SNAPSHOT.min.js"></script>
+    <script type="text/javascript" src="vendor/angular-ui-router/release/angular-ui-router.js"></script>
+    <script type="text/javascript" src="vendor/angular-adaptive-youtube/src/angular-adaptive-youtube.js"></script>
+    <script type="text/javascript" src="vendor/requirejs/require.js"></script>
+    <script type="text/javascript" src="src/app/about/about.js"></script>
+    <script type="text/javascript" src="src/app/app.js"></script>
+    <script type="text/javascript" src="src/app/blog/blog.js"></script>
+    <script type="text/javascript" src="src/app/contact/contact.js"></script>
+    <script type="text/javascript" src="src/app/home/home.js"></script>
+    <script type="text/javascript" src="src/app/portfolio/portfolio.js"></script>
+    <script type="text/javascript" src="src/app/research/research.js"></script>
+    <script type="text/javascript" src="src/app/videos/videos.js"></script>
+    <script type="text/javascript" src="src/common/plusOne/plusOne.js"></script>
+    <script type="text/javascript" src="src/common/services/services.js"></script>
+    <script type="text/javascript" src="templates-common.js"></script>
+    <script type="text/javascript" src="templates-app.js"></script>
+
+    <!-- it's stupid to have to load it here, but this is for the +1 button -->
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+      { "parsetags": "explicit" }
+    </script>
+  </head>
+  <body id="page-top" class="index">
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#/home">{{ brandtitle }}</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="hidden">
+                      <a href="#page-top"></a>
+                  </li>
+                  <li class="page-scroll">
+                      <a href="#/videos">Videos</a>
+                  </li>
+                  <li class="page-scroll">
+                      <a href="#/blog">Blog</a>
+                  </li>
+                  <li class="page-scroll">
+                      <a href="#/research">Research</a>
+                  </li>
+                  <li class="page-scroll">
+                      <a href="#/portfolio">Portfolio</a>
+                  </li>
+                  <li class="page-scroll">
+                      <a href="#/about">About</a>
+                  </li>
+                  <li class="page-scroll">
+                      <a href="#/contact">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+  </nav>
+
+  <div ui-view="main"></div>
+
+  <footer class="text-center">
+  <div class="footer-above">
+      <div class="container">
+          <div class="row">
+              <div class="footer-col col-md-4">
+                  <h3>Location</h3>
+                  <p>{{location}}
+                    <br/>India</p>
+              </div>
+              <div class="footer-col col-md-4">
+                  <h3>Around the Web</h3>
+                  <ul class="list-inline">
+                      <li><a href="https://www.facebook.com/kiranbubblyml1" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                      </li>
+                      <li><a href="https://plus.google.com/107714753205844259019" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                      </li>
+                      <li><a href="https://twitter.com/kiranml1" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                      </li>
+                      <li><a href="https://www.linkedin.com/pub/kiran-kumar-amruthaluri/53/338/894" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                      </li>
+                      <li><a href="https://github.com/kiranml1" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="footer-col col-md-4">
+                  <h3>About {{brandtitle}}</h3>
+                  <p>Front End Developer - Researcher</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="footer-below">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  Copyright &copy; 2014 - {{ brandtitle }}
+              </div>
+          </div>
+      </div>
+  </div>
+  </footer>
+  </body>
+</html>
