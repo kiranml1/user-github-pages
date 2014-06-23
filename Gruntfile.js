@@ -148,6 +148,17 @@ module.exports = function ( grunt ) {
             expand: true
           }
         ]
+      },
+      font_files : {
+        files: [
+          {
+            src: ['src/fonts/*'],
+            dest: '<%= build_dir %>/fonts',
+            cwd: '.',
+            expand: true,
+            flatten: true
+          }
+        ]
       }
     },
 
@@ -554,7 +565,7 @@ module.exports = function ( grunt ) {
   grunt.registerTask( 'build', [
     'clean', 'html2js', 'jshint', 'coffeelint', 'coffee', 'less:build',
     'concat:build_css', 'copy:build_app_assets', 'copy:build_vendor_assets',
-    'copy:build_appjs', 'copy:build_vendorjs', 'index:build', 'karmaconfig',
+    'copy:build_appjs', 'copy:build_vendorjs', 'copy:font_files', 'index:build', 'karmaconfig',
     'karma:continuous' 
   ]);
 

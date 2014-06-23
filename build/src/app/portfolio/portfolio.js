@@ -31,10 +31,10 @@ angular.module( 'ngBoilerplate.portfolio', [
                         ],
                         "Flash":
                         [
-                          {'title':'Interactive Flash Application - KEFEX','href':'http://kiranml1.github.io/researchdemos/demos/flashfan/demo/','description':'Action Script 3.0 - Flash Animation'},
-                          {'title':'Interactive Flash Application - Love Transformers','href':'http://kiranml1.github.io/researchdemos/demos/flashfan/demo/','description':'Action Script 3.0 - Flash Animation'},
                           {'title':'Cartooon Movie - 2D Animation','href':'https://www.youtube.com/watch?v=nMOKoZIv6LE','description':'Action Script 3.0 - 2D Animation','data':'flash'},
-                          {'title':'IIM Cartooon Animation Event - 2D Animation','href':'https://www.youtube.com/watch?v=WauQ37nMCY4','description':'Action Script 3.0 - 2D Animation','data':'flash'}
+                          {'title':'IIM Cartooon Animation Event - 2D Animation','href':'https://www.youtube.com/watch?v=WauQ37nMCY4','description':'Action Script 3.0 - 2D Animation','data':'flash'},
+                          {'title':'Interactive Flash Application - KEFEX','href':'http://kiranml1.github.io/researchdemos/demos/flashfan/demo/','description':'Action Script 3.0 - Flash Animation'},
+                          {'title':'Interactive Flash Application - Love Transformers','href':'http://kiranml1.github.io/researchdemos/demos/flashfan/demo/','description':'Action Script 3.0 - Flash Animation'}
                         ],
                         "visual":
                         [

@@ -77,6 +77,7 @@ module.exports = {
     css: [
     ],
     assets: [
+      'src/fonts/**/*'
     ]
   },
 };
