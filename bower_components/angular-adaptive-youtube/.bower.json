@@ -1,0 +1,44 @@
+{
+  "name": "angular-adaptive-youtube",
+  "version": "0.1.0",
+  "description": "Save data, conditionally load youtube videos.",
+  "keywords": [
+    "angular",
+    "adaptive",
+    "youtube"
+  ],
+  "authors": [
+    "Jan Antala <hello@janantala.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://angular-adaptive.github.io",
+  "main": "./src/angular-adaptive-youtube.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-adaptive/adaptive-youtube.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test*",
+    "index.html",
+    "gulpfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "angular": "~1.2.15"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.15"
+  },
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.0",
+    "commit": "329a6e34c9afa81f6420e55f365f054e09e5f12d"
+  },
+  "_source": "git://github.com/angular-adaptive/adaptive-youtube.git",
+  "_target": "~0.1.0",
+  "_originalSource": "angular-adaptive-youtube"
+}

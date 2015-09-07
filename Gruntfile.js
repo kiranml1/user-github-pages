@@ -159,6 +159,14 @@ module.exports = function ( grunt ) {
             flatten: true
           }
         ]
+      },
+      CNAME : {
+        files: [
+          {
+            src: ['src/CNAME'],
+            dest: '<%= build_dir %>/CNAME'
+          }
+        ]
       }
     },
 
@@ -565,7 +573,7 @@ module.exports = function ( grunt ) {
   grunt.registerTask( 'build', [
     'clean', 'html2js', 'jshint', 'coffeelint', 'coffee', 'less:build',
     'concat:build_css', 'copy:build_app_assets', 'copy:build_vendor_assets',
-    'copy:build_appjs', 'copy:build_vendorjs', 'copy:font_files', 'index:build', 'karmaconfig',
+    'copy:build_appjs', 'copy:build_vendorjs', 'copy:font_files', 'copy:CNAME', 'index:build', 'karmaconfig',
     'karma:continuous' 
   ]);
 
