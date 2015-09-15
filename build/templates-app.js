@@ -17,7 +17,6 @@ angular.module("about/about.tpl.html", []).run(["$templateCache", function($temp
     "                    <p>{{ aboutDescription }}</p>\n" +
     "                    <p>Experience: {{Experience}}</p>\n" +
     "                    <p>Primary Skills: {{Skills}}</p>\n" +
-    "                    <p>-{{name}}</p>\n" +
     "                </div>\n" +
     "            </div>\n" +
     "        </div>\n" +
@@ -142,9 +141,9 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "            <!-- <img src=\"http://placehold.it/500x300\" alt=\"\"> -->\n" +
     "              <div class=\"caption\">\n" +
     "                <h4>Front End Development</h4>\n" +
-    "                <p>I'm a Front End Developer in India and my job is my passion to develop interface for the branding companies around multiple domains with a complex filtering and data mining to form information architecture</p>\n" +
+    "                <p>I'm a Front End Developer in India and my job is my passion to develop user interfaces for the branding companies around multiple domains with a complex filtering and data mining into form information architecture</p>\n" +
     "                <p>\n" +
-    "                <a href=\"#/research\" class=\"btn btn-info btn-xs\" role=\"button\">More...</a> \n" +
+    "                <a href=\"#/portfolio\" class=\"btn btn-info btn-xs\" role=\"button\">More...</a> \n" +
     "                <!-- <a href=\"#\" class=\"btn btn-default btn-xs\" role=\"button\">Button</a> -->\n" +
     "                </p>\n" +
     "            </div>\n" +
@@ -156,9 +155,9 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "            <!-- <img src=\"http://placehold.it/500x300\" alt=\"\"> -->\n" +
     "              <div class=\"caption\">\n" +
     "                <h4>HTML5 Development &amp; Data Visualization</h4>\n" +
-    "                <p>I love visualize to my code and i implement and experiment in extracting and tranforming my skills to a interactive systems. I love to learn new specifications</p>\n" +
+    "                <p>I love visualize to my code and experiment with extracting and tranforming into interactive systems. I love to learn new specifications</p>\n" +
     "                <p>\n" +
-    "                <a href=\"#/research\" class=\"btn btn-info btn-xs\" role=\"button\">More...</a> \n" +
+    "                <a href=\"#/portfolio\" class=\"btn btn-info btn-xs\" role=\"button\">More...</a> \n" +
     "                <!-- <a href=\"#\" class=\"btn btn-default btn-xs\" role=\"button\">Button</a> -->\n" +
     "                </p>\n" +
     "            </div>\n" +
@@ -170,9 +169,9 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "            <!-- <img src=\"http://placehold.it/500x300\" alt=\"\"> -->\n" +
     "              <div class=\"caption\">\n" +
     "                <h4>Computer Graphics</h4>\n" +
-    "                <p>I love to see every digital component in graphics and love to orient it in simulation in various theorems to prove mathemtatics &amp; physics for 2D, 2.5D, 3D spatial vectors</p>\n" +
+    "                <p>I love to see every digital component in graphics and love to watch it as simulated objects in various proved mathemtatical concepts &amp; physics in 2D, 2.5D, 3D spatial vectors</p>\n" +
     "                <p>\n" +
-    "                <a href=\"#/research\" class=\"btn btn-info btn-xs\" role=\"button\">More...</a> \n" +
+    "                <a href=\"#/portfolio\" class=\"btn btn-info btn-xs\" role=\"button\">More...</a> \n" +
     "                <!-- <a href=\"#\" class=\"btn btn-default btn-xs\" role=\"button\">Button</a> -->\n" +
     "                </p>\n" +
     "            </div>\n" +
@@ -184,9 +183,9 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "            <!-- <img src=\"http://placehold.it/500x300\" alt=\"\"> -->\n" +
     "              <div class=\"caption\">\n" +
     "                <h4>Image Processing</h4>\n" +
-    "                <p>Image Processing is my choice to learn to process image and derive information, improve image attributes &amp; turn to give develop grpahic plugins with its data sets.</p>\n" +
+    "                <p>Image Processing is one of my computer science subject to learn to process image and derive information, improve image attributes &amp; turn to give grpahic plugins with its data sets.</p>\n" +
     "                <p>\n" +
-    "                <a href=\"#/research\" class=\"btn btn-info btn-xs\" role=\"button\">More...</a> \n" +
+    "                <a href=\"#/portfolio\" class=\"btn btn-info btn-xs\" role=\"button\">More...</a> \n" +
     "                <!-- <a href=\"#\" class=\"btn btn-default btn-xs\" role=\"button\">Button</a> -->\n" +
     "                </p>\n" +
     "            </div>\n" +
@@ -256,7 +255,7 @@ angular.module("portfolio/portfolio.tpl.html", []).run(["$templateCache", functi
     "                </a>\n" +
     "            </div>\n" +
     "            <div class=\"col-sm-4 portfolio-item\">\n" +
-    "                <a href=\"\" class=\"portfolio-link\" ng-click=\"open('','Academic Experiments Experiments','Flash')\" data-toggle=\"modal\">\n" +
+    "                <a href=\"\" class=\"portfolio-link\" ng-click=\"open('','Academic Experiments','Flash')\" data-toggle=\"modal\">\n" +
     "                    <div class=\"caption\">\n" +
     "                        <div class=\"caption-content\">\n" +
     "                            <i class=\"fa fa-search-plus fa-3x\"></i>\n" +
@@ -286,7 +285,7 @@ angular.module("portfolio/portfolio.tpl.html", []).run(["$templateCache", functi
     "                </a>\n" +
     "            </div>\n" +
     "            <div class=\"col-sm-4 portfolio-item\">\n" +
-    "                <a href=\"\" class=\"portfolio-link\" ng-click=\"open('','Innovative Applications','graphic')\" data-toggle=\"modal\">\n" +
+    "                <a href=\"\" class=\"portfolio-link\" ng-click=\"open('','Interesting Samples','graphic')\" data-toggle=\"modal\">\n" +
     "                    <div class=\"caption\">\n" +
     "                        <div class=\"caption-content\">\n" +
     "                            <i class=\"fa fa-search-plus fa-3x\"></i>\n" +

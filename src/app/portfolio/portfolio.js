@@ -57,7 +57,7 @@ angular.module( 'ngBoilerplate.portfolio', [
                         ],
                         "work":
                         [
-                          {'title':'Lyris - Racerx','href':'http://lyris.com/us-en/','description':'Inetraged Digital Marketing ( Working Project )'},
+                          {'title':'Lyris - Racerx','href':'http://lyris.com/us-en/','description':'Inetraged Digital Marketing'},
                           {'title':'Tripanzee','href':'http://tweb.tripanzee.com/','description':'Singapore Social Network Tripping'},
                           {'title':'Perzo','href':'https://www.perzo.com/','description':'Personnel Network & Chatting Application'},
                           {'title':'Deloitte - DSNAP','href':'http://www.deloitte.com/','description':'DSNAP - Deloitte Reverse Bidding Stock Trading Project for Bidders & Consumers'},

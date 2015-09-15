@@ -19,9 +19,8 @@ angular.module( 'ngBoilerplate.about', [
 
 .controller( 'AboutCtrl', function AboutCtrl( $scope ) {
   
-    $scope.aboutDescription = "I'm Kiran, working as UI Developer & Researcher in India."+" I've a passion to Front End Development in Computer Science"+" in Graphics & Image Processing in Mobile, Web & Desktop.";
-    $scope.Experience = "1 year in Corporate Companies & a lot more Academical Experience";
-    $scope.Skills = "HTML5 (Core Specifications), Core Javascript (ECMA), CSS3, SVG, Node JS, Front End Frameworks in Javascvript (JQuery, Angular JS & D3 JS), Unit Testing with Testing Frameworks (Jasmine)";
-    $scope.name = "My Introduction Video";
+    $scope.aboutDescription = "I'm Kiran, Front End Developer & Researcher in India."+" I've a extreme passion to Front End Development and Computer Science"+" with Graphics & Image Processing in Mobile, Web & Desktop.";
+    $scope.Experience = "2 years of Corporate & Open Source Front End Development";
+    $scope.Skills = "HTML5 (Core Specifications), Core Javascript (ECMA), CSS3, SVG, Node JS, Front End Frameworks in Javascript (JQuery, Angular JS & D3 JS), Unit Testing with Testing Frameworks (Jasmine)";
 
 });
